@@ -36,6 +36,7 @@ def purchase():
     cursor = conn.cursor()
 
     # 1. Проверка наличия
+    # первый комит
     for item in cart:
         cursor.execute(
             "SELECT stock FROM products WHERE id = ?",
