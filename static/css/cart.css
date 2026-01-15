@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f7;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.cart-item h3 {
+    margin: 0 0 5px 0;
+}
+
+.cart-item p {
+    margin: 3px 0;
+    color: #555;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #0071e3;
+    font-weight: bold;
+}
+.cart-item button {
+    margin-top: 10px;
+    background: #d32f2f;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background: #b71c1c;
+}
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.qty-controls button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #0071e3;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qty-controls span {
+    min-width: 20px;
+    text-align: center;
+}
+
+.cart-total {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background: #333;
+}
